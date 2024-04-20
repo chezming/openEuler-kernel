@@ -1880,6 +1880,7 @@ struct xhci_hcd {
 #define XHCI_SNPS_BROKEN_SUSPEND    BIT_ULL(35)
 #define XHCI_ZHAOXIN_HOST       BIT_ULL(36)
 #define XHCI_ZHAOXIN_TRB_FETCH	BIT_ULL(39)
+#define XHCI_NO_SOFT_RETRY	BIT_ULL(40)
 
 	unsigned int		num_active_eps;
 	unsigned int		limit_active_eps;
